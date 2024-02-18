@@ -12,4 +12,4 @@
 Лабораторна робота №1
 Загальне завдання: розробити серверну частину Web-додатку та протестувати її функціональність.
 ```
-[Звіт: Технологія розробки Web-додатків. ЛР1](https://docs.google.com/document/d/14FSxpQtMq5hUW5vxHD3U7weEcXK_QJFZrVObvY1f4Hc/edit?usp=sharing)
+[Звіт: Технологія розробки Web-додатків. ЛР1](https://docs.google.com/document/d/1N25q3liVX6cQUvmT55CsT9VstG_y1zNADFZdeJYlqHw/edit?usp=sharing)
