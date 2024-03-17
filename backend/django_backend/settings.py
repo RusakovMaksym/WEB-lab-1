@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'users',
     'urls',
+    'chat',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -64,6 +66,8 @@ TEMPLATES = [
         },
     },
 ]
+WSGI_APPLICATION = 'django_backend.wsgi.application'
+ASGI_APPLICATION = 'django_backend.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
@@ -86,8 +90,8 @@ CHANNEL_LAYERS = {
 #        "BACKEND": "channels_redis.core.RedisChannelLayer",
 #        "CONFIG": {
 #            'hosts': [('127.0.0.1', 6379)]
-#        }
 #    }
+#}
 #}
 
 
