@@ -8,6 +8,10 @@
 ```no-highlight
 Загальне завдання: розробити клієнтську частину Web-додатку.
 ```
+### [Лабораторна робота №2](https://docs.google.com/document/d/17CyyEme-iNFvFiFUxF1-5-uirug1fgjYoj6HdWIR-do/edit?usp=sharing)
+```no-highlight
+Загальне завдання: розробити функції обміну даними між користувачами Web-додатка, а також адміністрування користувачами у реальному часі.
+```
 
 ## Технологія розробки Web-додатків
 ### [Лабораторна робота №1](https://docs.google.com/document/d/1N25q3liVX6cQUvmT55CsT9VstG_y1zNADFZdeJYlqHw/edit?usp=sharing)
