@@ -8,7 +8,7 @@
 ```no-highlight
 Загальне завдання: розробити клієнтську частину Web-додатку.
 ```
-### [Лабораторна робота №2](https://docs.google.com/document/d/17CyyEme-iNFvFiFUxF1-5-uirug1fgjYoj6HdWIR-do/edit?usp=sharing)
+### [Лабораторна робота №2](https://docs.google.com/document/d/1Z1mjkVgwebJozuWtnxBQ3Zf5vgV4BNUHAAMh0qyO-YM/edit?usp=sharing)
 ```no-highlight
 Загальне завдання: розробити функції обміну даними між користувачами Web-додатка, а також адміністрування користувачами у реальному часі.
 ```
@@ -18,7 +18,7 @@
 ```no-highlight
 Загальне завдання: розробити серверну частину Web-додатку та протестувати її функціональність.
 ```
-### [Лабораторна робота №2](https://docs.google.com/document/d/1Z1mjkVgwebJozuWtnxBQ3Zf5vgV4BNUHAAMh0qyO-YM/edit?usp=sharing)
+### [Лабораторна робота №2](https://docs.google.com/document/d/17CyyEme-iNFvFiFUxF1-5-uirug1fgjYoj6HdWIR-do/edit?usp=sharing)
 ```no-highlight
 Загальне завдання: розробити засоби сценарії (код) для тестування клієнтської частини (інтерфейсу користувача) Web-додатку.
 ```
