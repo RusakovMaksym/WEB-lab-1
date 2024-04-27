@@ -7,6 +7,10 @@ from django.contrib.auth.models import (
 )
 from rest_framework_simplejwt.tokens import RefreshToken
 
+from django.db.models import signals
+from .tasks import send_welcome_email
+
+
 class UserManager(BaseUserManager):
     def create_user(self, username, email, password):
         if username is None:
@@ -58,3 +62,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     def get_username(self):
         return self.email
 
+def user_post_save(sender, instance, signal, *args, **kwargs):
+    send_welcome_email.apply_async(args=(instance.pk,), queue="email_queue")
+
+
+signals.post_save.connect(user_post_save, sender=User)

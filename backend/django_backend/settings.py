@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'urls',
     'chat',
     'channels',
+    'tasks',
 ]
 
 MIDDLEWARE = [
@@ -79,20 +80,20 @@ DATABASES = {
     }
 }
 
-CHANNEL_LAYERS = {
-    "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer"
-    }
-}
-
 #CHANNEL_LAYERS = {
 #    "default": {
-#        "BACKEND": "channels_redis.core.RedisChannelLayer",
-#        "CONFIG": {
-#            'hosts': [('127.0.0.1', 6379)]
+#        "BACKEND": "channels.layers.InMemoryChannelLayer"
 #    }
 #}
-#}
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            'hosts': [('127.0.0.1', 6379)]
+        }
+    }
+}
 
 
 # Password validation
@@ -152,6 +153,6 @@ CELERY_CREATE_MISSING_QUEUES = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'misha.turkin.2000@gmail.com'
-EMAIL_HOST_PASSWORD = 'ndyxiqnhizmquhrc'
+EMAIL_HOST_USER = 'maxim.ru02@gmail.com'
+EMAIL_HOST_PASSWORD = 'okkwjevhranlcusq'
 EMAIL_PORT = 587
